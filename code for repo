@@ -1,0 +1,168 @@
+
+KFH+83330@laptop-trn-140 MINGW64 ~
+$ cd Desktop/
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop
+$ ls
+'HTML Screenshot 2023-12-21 09.png'   TASK-css-challenge-main/   desktop.ini
+ Home/                                challenge1/                fursaTech/
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop
+$ cd fursaTech/
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop/fursaTech
+$ git clone git@github.com:fatenAldousari/my-first-repo.git
+Cloning into 'my-first-repo'...
+The authenticity of host 'github.com (20.233.83.145)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+Please type 'yes', 'no' or the fingerprint: yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+warning: You appear to have cloned an empty repository.
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop/fursaTech
+$ cd my-first-repo/
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop/fursaTech/my-first-repo (main)
+$ touch faten.txt
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop/fursaTech/my-first-repo (main)
+$ git add faten.txt
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop/fursaTech/my-first-repo (main)
+$ git commit -m "i love codding"
+[main (root-commit) 7e485af] i love codding
+ Committer: Faten F M F S Aldousari <83330@kfh.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 faten.txt
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop/fursaTech/my-first-repo (main)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 223 bytes | 223.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:fatenAldousari/my-first-repo.git
+ * [new branch]      main -> main
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop/fursaTech/my-first-repo (main)
+$ touch README.md
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop/fursaTech/my-first-repo (main)
+$ git add README.md
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop/fursaTech/my-first-repo (main)
+$ git commit -m "watch tv"
+[main 9eff501] watch tv
+ Committer: Faten F M F S Aldousari <83330@kfh.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop/fursaTech/my-first-repo (main)
+$ git push
+To github.com:fatenAldousari/my-first-repo.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:fatenAldousari/my-first-repo.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop/fursaTech/my-first-repo (main)
+$ nano faten.txt
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop/fursaTech/my-first-repo (main)
+$ cat faten.txt
+faten
+
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop/fursaTech/my-first-repo (main)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop/fursaTech/my-first-repo (main)
+$ git add .
+warning: in the working copy of 'faten.txt', LF will be replaced by CRLF the next time Git touches it
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop/fursaTech/my-first-repo (main)
+$ git commit -m add
+[main b18d77a] add
+ Committer: Faten F M F S Aldousari <83330@kfh.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 2 insertions(+)
+ create mode 100644 challenge 4 Screenshot 2023-12-21 145639.png
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop/fursaTech/my-first-repo (main)
+$ git push
+To github.com:fatenAldousari/my-first-repo.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:fatenAldousari/my-first-repo.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop/fursaTech/my-first-repo (main)
+$ git add faten.txt
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop/fursaTech/my-first-repo (main)
+$ git commit -m faten
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+KFH+83330@laptop-trn-140 MINGW64 ~/Desktop/fursaTech/my-first-repo (main)
+$ git push
+To github.com:fatenAldousari/my-first-repo.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:fatenAldousari/my-first-repo.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+KFH+
